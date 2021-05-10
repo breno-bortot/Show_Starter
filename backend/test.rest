@@ -1,0 +1,84 @@
+POST http://localhost:3000/reg_supporter
+Content-Type: application/json  
+
+
+{
+    "username": "relembrandofodas",
+  "email": "fodas@hotmail.com",
+  "password": "caralho"
+}
+
+
+###
+POST http://localhost:3000/login_supporter
+Content-Type: application/json  
+
+{
+    "username":"Xuxa Safada",
+      "password":"pederasta666"
+
+}
+
+###
+
+
+GET http://localhost:3000/supporters/60777493898cb13054b94a95
+Content-Type: application/json  
+
+{
+    "supporterId":"60777493898cb13054b94a95"
+}
+
+###
+GET http://localhost:3000/creators/60779660d1bf9117c44f02ec
+Content-Type: application/json  
+
+{
+  "creatorId":"607862ae164bd12544abb433"
+   // "creatorId": "607df64d26d944b56df2de21"
+}
+
+###
+
+POST http://localhost:3000/reg_supporter
+Content-Type: application/json  
+
+{
+    "username":"saxa",
+    "email":"saxa@yahoo.com",
+    "password":"xuxa"
+
+}
+
+###
+
+POST  http://localhost:3000/projects
+Content-Type: application/json
+
+{
+    "title": "Virilhada",
+    "creatorId": "607862ae164bd12544abb433",
+    "eventDate": "2022-02-15",
+    "locality": "Salvador",
+    "description": "Trio elétrico",
+    "image": "",
+    "video": "",
+    "rewards": "abada",
+    "fundGoal": 5000,
+    "expiresOn": "2022-01-15"
+}
+
+###
+
+POST  HTTP://localhost:3000/pledges
+Content-Type: application/json
+
+{
+     "projectId":  "607e06e4024a6f25d4210408",
+    "supporterId": "60777493898cb13054b94a95",
+    "value": 50,
+    "reward": "abada",
+    "expiresOn": "2022-01-15T00:00:00.000+00:00",
+    "description": "trio elétrico dia 2022-02-15"  
+}
+
