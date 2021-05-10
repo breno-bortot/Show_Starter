@@ -1,4 +1,5 @@
 # Crowdfunding prototype
+Video demo https://www.youtube.com/watch?v=nZDLGS86wAs
 This is a prototype to my first App project. The goal here was to exercise and test my learning skills to a fullstack project.
 It's a React App, with Node Express backend and MongoDB. 
 
